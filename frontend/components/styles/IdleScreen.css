@@ -1,0 +1,99 @@
+
+@media only screen and (max-width: 900px) {
+.loading--screen {
+    background-color: #C8102E;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+
+}
+
+.loading--screen > .loading--needhelp > h1 {
+    /* font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8rem;
+    padding-top: 50vw;
+    margin-left: 20px; */
+
+}
+
+.loading--needhelp > h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8rem;
+    padding-top: 50vw;
+    padding-bottom: 20vh;
+    margin-left: 20px;
+    height: 20vh;
+}
+
+.word--display > h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8rem;
+    padding-top: 50vw;
+    margin-left: 20px;
+}
+
+.loading--screen > img {
+    height: 5vh;
+    float: right;
+    margin-right: 5vw;
+    margin-top: 15vh;
+
+}
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .loading--screen {
+        background-color: #C8102E;
+        width: 100vw;
+        height:100vh;
+        overflow-x: hidden;
+    
+    
+    }
+    
+    .loading--screen > .loading--needhelp > h1 {
+        /* font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        font-size: 8rem;
+        padding-top: 50vw;
+        margin-left: 20px; */
+    
+    }
+    
+    .loading--needhelp > h1 {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        font-size: 5em;
+        /* padding-top: 50vw; */
+        padding-bottom: 20vh;
+        margin-left: 20px;
+        height: 20vh;
+    }
+    
+
+    
+    .loading--screen > img {
+        height: 5vh;
+        float: right;
+        margin-right: 15vw;
+        margin-top: 50vh;
+    
+    }
+    
+    }
