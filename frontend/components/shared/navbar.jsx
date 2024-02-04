@@ -46,7 +46,7 @@ export default function Navbar() {
             console.log('Audio uploaded successfully:', jsonResponse);
             if(jsonResponse.user_request !== "does not exist"){
               languageProvider.setLanguage(jsonResponse.language)
-              layerProvider.toggleLayer(jsonResponse.user_request)            // Handle the JSON response here
+              layerProvider.toggleLayerOn(jsonResponse.user_request)            // Handle the JSON response here
 
             }
           } else {
